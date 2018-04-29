@@ -65,8 +65,6 @@ void PTZCtrl::turnRight()
 void PTZCtrl::stop()
 {
     requestGET(cameraURL + "ptzctrl.cgi?-act=stop");
-    
-    printf("stop");
 }
 
 void PTZCtrl::gotoPreset(int preset)
