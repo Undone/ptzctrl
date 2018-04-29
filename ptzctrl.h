@@ -37,13 +37,13 @@ public:
     
     /*
         Turn camera to specified preset
-        @param preset number 1-8
+        @param preset number 0-7
     */
     void gotoPreset(int preset);
     
     /*
         Save current position as a preset
-        @param preset number 1-8
+        @param preset number 0-7
     */
     void savePreset(int preset);
     
